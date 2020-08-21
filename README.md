@@ -13,8 +13,9 @@ Please ignore `train.py`, which will be used in Round 2.
 `train/` directory contains baseline agent's model weight files trained on `MineRLObtainDiamondDenseVectorObf-v0`.
 
 ## List of current baselines
-- [Rainbow](https://github.com/keisuke-nakata/minerl2020_submission) <-- We are here
+- [Rainbow](https://github.com/keisuke-nakata/minerl2020_submission)
 - [SQIL](https://github.com/s-shiroshita/minerl2020_sqil_submission)
+- [DQfD](https://github.com/marioyc/minerl2020_dqfd_submission) <-- We are here
 
 # How to Submit
 
@@ -37,31 +38,23 @@ If everything works out correctly, you should be able to see your score on the
 This baseline consists of two main steps:
 
 1. [Apply K-means clustering](https://minerl.io/docs/tutorials/k-means.html) for the action space with the demonstration dataset.
-2. Apply Rainbow algorithm on the discretized action space.
+2. Apply the DQfD algorithm on the discretized action space.
 
 Each of steps utilizes existing libraries.  
 K-means in the step 1 is from [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans),
-and Rainbow in the spte 2 is from [PFRL](https://github.com/pfnet/pfrl),
+and DQfD in the step 2 is based on the DoubleDQN agent in [PFRL](https://github.com/pfnet/pfrl),
 which is a Pytorch-based RL library.
 
 
 # How to Train Baseline Agent on your own
 
+To train your agent you can call the main function in `train.py` as done in the lines that were commented-out in `run.py`
+
 `mod/` directory contains all you need to train agent locally:
 
-```bash
-pip install numpy scipy scikit-learn pandas tqdm joblib pfrl
-
-# Don't forget to set this!
+```
+# Don't forget to set this environment variable
 export MINERL_DATA_ROOT=<directory you want to store demonstration dataset>
-
-python3 mod/dqn_family.py \
-  --gpu 0 --env "MineRLObtainDiamondDenseVectorObf-v0"  \
-  --outdir result \
-  --noisy-net-sigma 0.5 --arch distributed_dueling --replay-capacity 300000 --replay-start-size 5000 --target-update-interval 10000 \
-  --num-step-return 10 --agent CategoricalDoubleDQN --monitor --lr 0.0000625 --adam-eps 0.00015 --prioritized --frame-stack 4 --frame-skip 4 \
-  --gamma 0.99 --batch-accumulator mean
-
 ```
 
 

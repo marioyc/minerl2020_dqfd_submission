@@ -1,0 +1,1 @@
+train_dqfd.py --frame-skip 3 --frame-stack 4 --gpu 0 --lr 6.25e-5 --minibatch-size 32 --n-experts 64 --use-noisy-net before-pretraining --n-clusters 40 --env MineRLObtainDiamondVectorObf-v0 --n-pretrain-steps 750000
