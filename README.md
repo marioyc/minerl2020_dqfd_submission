@@ -1,6 +1,6 @@
-# NeurIPS 2020: MineRL Competition Rainbow Baseline with PFRL
+# NeurIPS 2020: MineRL Competition DQfD Baseline with PFRL
 
-This repository is a **Rainbow baseline submission example with [PFRL](https://github.com/pfnet/pfrl)**,
+This repository is the **DQfD baseline submission example with [PFRL](https://github.com/pfnet/pfrl)**,
 originated from [the main MineRL Competition submission template and starter kit](https://github.com/minerllabs/competition_submission_template).
 
 For detailed & latest documentation about the competition/template, see the original template repository.
