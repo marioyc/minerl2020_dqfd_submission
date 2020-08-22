@@ -14,7 +14,7 @@ EXITED_SIGNAL_PATH = os.getenv('EXITED_SIGNAL_PATH', 'shared/exited')
 
 # Hyperparameters
 n_pretrain_steps = 750000
-frame_skip = 3
+frame_skip = 4
 frame_stack = 4
 gpu = 0
 lr = 6.25e-5

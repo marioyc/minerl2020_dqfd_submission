@@ -212,7 +212,7 @@ class DQfDAgent(MineRLAgentBase):
 # IMPORTANT: SET THIS VARIABLE WITH THE AGENT CLASS YOU ARE USING   # 
 ######################################################################
 AGENT_TO_TEST = DQfDAgent
-AGENT_PATH = "saved_agents/06e460d8f0306051bbd6a4b6fab91ac6f204c70d-00000000-db56bdc0/"
+AGENT_PATH = "saved_agents/06e460d8f0306051bbd6a4b6fab91ac6f204c70d-00000000-da33b4ea/"
 
 ####################
 # EVALUATION CODE  #

@@ -1,0 +1,221 @@
+commit 06e460d8f0306051bbd6a4b6fab91ac6f204c70d
+Author: marioyc <marioyc@preferred.jp>
+Date:   Sun Aug 16 17:06:04 2020 +0000
+
+    use custom batch_states
+
+commit 6d8f0ed2c6ee8856cbacc2c83f5a07d284d61ced
+Author: marioyc <ycmario@gmail.com>
+Date:   Sat Aug 15 10:30:48 2020 +0900
+
+    cleanup dqfd.py
+
+commit 663e531fa6412b45d26ebd51d4c07a976e0ec7af
+Author: marioyc <ycmario@gmail.com>
+Date:   Sat Aug 15 10:26:02 2020 +0900
+
+    update training script
+
+commit b67a20ec0d7f469058746e8107fe40e2509171c4
+Author: marioyc <ycmario@gmail.com>
+Date:   Sat Aug 15 09:59:15 2020 +0900
+
+    move pfrl code
+
+commit 5eb5c9dfc3622bac4ce6ef8a3c56da25c18e82f2
+Author: marioyc <ycmario@gmail.com>
+Date:   Fri Aug 7 06:37:33 2020 +0900
+
+    remove ScaledFloatFrame from BC
+
+commit 3c3a82680c85ec9136f5cccd488b466aba83af6d
+Author: marioyc <ycmario@gmail.com>
+Date:   Fri Aug 7 06:13:19 2020 +0900
+
+    move scaling to phi, remove ScaledFloatFrame
+
+commit ff909633fc82f5671fce4691cd8bfdcfa8c7f641
+Author: marioyc <marioyc@preferred.jp>
+Date:   Sat Aug 1 14:57:53 2020 +0000
+
+    remove scaling in phi, fix maximum frames
+
+commit 76355ce38b5e75bd05ebf1ed2e2ac7682f3b33e3
+Author: marioyc <marioyc@preferred.jp>
+Date:   Tue Jul 28 11:06:00 2020 +0000
+
+    close kmeans file
+
+commit 8b75c19a68dd53e52ac0769ad82da1ce109cb296
+Author: marioyc <marioyc@preferred.jp>
+Date:   Tue Jul 21 10:08:42 2020 +0000
+
+    fixes to K-means saving
+
+commit 399626a694c304637084af42aca696021ab1f72b
+Author: marioyc <ycmario@gmail.com>
+Date:   Tue Jul 21 15:53:03 2020 +0900
+
+    add K-means saving
+
+commit 0b0cd3ef81a6ed03a3e2343b0f30fe60a8e1b2a6
+Author: marioyc <marioyc@preferred.jp>
+Date:   Tue Jul 21 06:25:00 2020 +0000
+
+    update BC
+
+commit e0c27db3d1a5eb503ab2f68d350fc0835b8995f6
+Author: marioyc <marioyc@preferred.jp>
+Date:   Thu Jul 16 02:31:26 2020 +0000
+
+    add debug logs
+
+commit e438616b4070b5d1a107bbe6968f94c41f73d2ac
+Author: marioyc <marioyc@preferred.jp>
+Date:   Tue Jul 14 03:54:45 2020 +0000
+
+    set max steps according to the env
+
+commit 1c64a8b7518456f6186231ccb118e5f23e1addfb
+Author: marioyc <ycmario@gmail.com>
+Date:   Fri Jul 10 08:16:12 2020 +0900
+
+    setup policy
+
+commit 90dc2bcd5944c9693c2c1647351caf7979cbaa53
+Author: marioyc <marioyc@preferred.jp>
+Date:   Thu Jul 9 16:54:06 2020 +0000
+
+    some fixes to BC code
+
+commit e44ab7eb7a94e7144818d2c77575c9696bc53e90
+Author: marioyc <ycmario@gmail.com>
+Date:   Thu Jul 9 20:25:55 2020 +0900
+
+    Add BC agent
+
+commit 675a009eac438dd59c6e76e7d0c8785d4e24f96e
+Author: marioyc <marioyc@preferred.jp>
+Date:   Wed Jul 8 23:54:23 2020 +0000
+
+    add preprocessed state to the buffer for all envs
+
+commit 94d2e1f22665520ed11e972b4c318b343704300b
+Author: marioyc <marioyc@preferred.jp>
+Date:   Tue Jul 7 08:06:58 2020 +0000
+
+    add MineRLObtainDiamondVectorObf-v0 option
+
+commit d1314099d430924b22938af2b476405fd270cbfb
+Author: marioyc <marioyc@preferred.jp>
+Date:   Mon Jun 29 01:33:09 2020 +0000
+
+    clean up unused arguments
+
+commit 91a762db83894e06ea7a64bd3e421685d34ac86e
+Author: marioyc <marioyc@preferred.jp>
+Date:   Fri Jun 26 03:36:28 2020 +0000
+
+    remove unnecessary appends
+
+commit 9f19f9afce40a3978b1908e00cd8649b51529064
+Author: marioyc <marioyc@preferred.jp>
+Date:   Fri Jun 26 03:09:14 2020 +0000
+
+    do not use the last frame
+
+commit 0f444c0bf91ef26c50f73a5a1c50da6ecc805b50
+Author: marioyc <ycmario@gmail.com>
+Date:   Fri Jun 26 11:36:05 2020 +0900
+
+    add handling of frame skip for expert data
+
+commit c70adf11389e9e737b678512c27aac8842417c31
+Author: marioyc <marioyc@preferred.jp>
+Date:   Fri Jun 26 01:45:07 2020 +0000
+
+    remove expert demo path argument
+
+commit 7aefb520a05c024866b71f5b899ac5cf0b82e02e
+Author: marioyc <ycmario@gmail.com>
+Date:   Wed Jun 24 18:48:16 2020 +0900
+
+    add argument for the number of clusters
+
+commit 7b588863d0e493bced8c196c76bbcae21c145696
+Author: marioyc <marioyc@preferred.jp>
+Date:   Wed Jun 24 03:23:47 2020 +0000
+
+    make action a float
+
+commit 38b6a38c459fa4507ed00cab3490f0e371ff8d2d
+Author: marioyc <marioyc@preferred.jp>
+Date:   Wed Jun 24 02:56:47 2020 +0000
+
+    Fill buffer with demonstrations
+
+commit fc70db2f5f2cc6897fe505a07a4335f7d6fd4025
+Author: marioyc <marioyc@preferred.jp>
+Date:   Mon Jun 22 14:14:31 2020 +0000
+
+    change DQFD to handle discrete actions
+
+commit afdc344111853b450f45c1aa70f9cb23a36e989e
+Author: marioyc <marioyc@preferred.jp>
+Date:   Sat Jun 20 03:06:21 2020 +0000
+
+    change to obfscustaced env
+
+commit 0968741e7631c4d3619dd0a3406f45db0c693d39
+Author: marioyc <ycmario@gmail.com>
+Date:   Sat Jun 20 11:42:17 2020 +0900
+
+    change env name
+
+commit 3affbd8fc8858ca0e9914cfbc9d7013649140305
+Author: marioyc <ycmario@gmail.com>
+Date:   Sat Jun 20 11:41:58 2020 +0900
+
+    add kmeans
+
+commit 9359ceee17cfc4f854758dd3aa98b2e39690320d
+Author: marioyc <ycmario@gmail.com>
+Date:   Sat Jun 20 11:21:12 2020 +0900
+
+    change env wrappers
+
+commit 95475c81910a10a50a0183236dd112cc4bf01457
+Author: marioyc <marioyc@preferred.jp>
+Date:   Fri Jun 19 10:01:30 2020 +0000
+
+    remove episodic_update and episodic_update_len
+
+commit e2828e0b5423e5e43cc05e365ae8bf290f5ab21c
+Author: marioyc <marioyc@preferred.jp>
+Date:   Fri Jun 19 03:07:34 2020 +0000
+
+    remove action wrappers and change Q-function model
+
+commit 072eb6fafcb6e30d6c0e0ee5f7b27d29b20d8a8f
+Author: marioyc <marioyc@preferred.jp>
+Date:   Fri Jun 19 03:07:00 2020 +0000
+
+    add old wrappers
+
+commit b4d9ca24079c56c500af700332978d2c5ccf5173
+Author: marioyc <marioyc@preferred.jp>
+Date:   Thu Jun 18 16:14:15 2020 +0000
+
+    fix PrioritizedBuffer import
+
+commit c932cd5ddabbb70549948cfee99a17ed498d75ee
+Author: marioyc <ycmario@gmail.com>
+Date:   Fri Jun 19 00:37:31 2020 +0900
+
+    add MineRL 2019 scripts
+
+commit 06e19d88c2351c61fcf99a10e1c93cae3b46e5ca
+Author: Mario Ynocente Castro <marioyc@preferred.jp>
+Date:   Thu Jun 18 23:17:42 2020 +0900
+
+    Initial commit
